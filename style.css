@@ -1,0 +1,24 @@
+#canvas1 {
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+body {
+  background-color: black;
+}
+
+.player-image,
+.enemy-image,
+.grass-image,
+.obstacle-image,
+.projectile-image,
+.asphalt-image,
+.destroyed-image,
+.explosion-image,
+.heart-image,
+.wall-image {
+  display: none;
+}
